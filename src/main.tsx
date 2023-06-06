@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 
 
-import { useLocation, BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
