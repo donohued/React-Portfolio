@@ -2,7 +2,7 @@
 import './App.css'
 import Project from './Project'
 import VRCamping from './VRCamping'
-import { useNavigate, BrowserRouter as Routes, Route } from "react-router-dom";
+import { useNavigate, BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MiamiRoll from './MiamiRoll';
 import DrawingBoard from './DrawingBoard';
 
