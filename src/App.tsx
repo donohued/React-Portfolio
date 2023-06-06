@@ -5,14 +5,15 @@ import VRCamping from './VRCamping'
 import { useNavigate, BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MiamiRoll from './MiamiRoll';
 import DrawingBoard from './DrawingBoard';
+import NavPortal from './NavPortal';
 
 
 function App() {
-    const navigate = useNavigate();
 
     return (
         <>
-                <div className='flex-wrapper'>
+        <Router>
+            <div className='flex-wrapper'>
                     <div className='portal-side'>
 
                         <div className='portal-content'>
@@ -24,24 +25,9 @@ function App() {
                                 Software developer.
                                 <hr />
 
-                                Projects
-                                <ol>
-                                    <li><a onClick={() => navigate("/queueup")}>QueueUp</a></li>
-                                    <li><a onClick={() => navigate("/vrcamping")}>VR Camping Sim</a></li>
-                                    <li><a onClick={() => navigate("/adc")}>ADC</a></li>
-                                    <li><a onClick={() => navigate("/miamiroll")}>Miami Roll</a></li>
-                                    <li><a onClick={() => navigate("/thedrawingboard")}>The DRAWing Board</a></li>
-                                </ol>
+                                <NavPortal />
 
-                                <hr />
-
-                                Socials
-                                <ol>
-                                    <li><a href='https://twitter.com/SeriouslyNIX'>Twitter</a></li>
-                                    <li><a href='https://github.com/donohued'>Github</a></li>
-                                </ol>
                             </div>
-
                         </div>
 
                     </div>
@@ -58,6 +44,8 @@ function App() {
                     </div>
 
                 </div >
+        </Router>
+                
         </>
     )
 }
