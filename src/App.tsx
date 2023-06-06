@@ -33,7 +33,6 @@ function App() {
                                     <li><a onClick={() => navigate("/thedrawingboard")}>The DRAWing Board</a></li>
                                 </ol>
 
-
                                 <hr />
 
                                 Socials
@@ -43,12 +42,10 @@ function App() {
                                 </ol>
                             </div>
 
-
                         </div>
 
                     </div>
                     <div className='content-side'>
-
 
                         <Routes>
                             <Route path="/*" element={<Project />} />
@@ -57,8 +54,6 @@ function App() {
                             <Route path="/miamiroll" element={<MiamiRoll />} />
                             <Route path="/thedrawingboard" element={<DrawingBoard />} />
                         </Routes>
-
-
 
                     </div>
 
