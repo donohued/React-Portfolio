@@ -12,11 +12,7 @@ export default function VRCamping() {
             <br />
             After graduating highschool I found myself with a lot of free time. 
             I took a semester off before going to college, and I took advantage of that time by deepening my knowledge of OOP as well as learning what made a good VR user experience.
-
-            <br />
-            <br />
-
-            I worked
+            
 
             <br />
             <br />

@@ -10,7 +10,11 @@ export default function MiamiRoll() {
             </span>
             <br />
             <br />
-            Super dope game jame but collaborating this time lol.
+            
+            A game made for the 2022 GMTK Game Jam. 
+            The game was originally designed and developed in less than 48 hours using Unity Game Engine.
+            I developed multiple systems for the game, including a dialogue system, battle system, and inventory system. 
+            Along with this I also developed an event queue system that allowed easy development of game events, cutscenes, and battle setups.
 
             <br />
             <br />
