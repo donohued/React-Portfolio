@@ -101,3 +101,7 @@ ol{
 .image-row div{
 display: inline-block;
 }
+
+.external::after {
+    content: " ↗";
+}

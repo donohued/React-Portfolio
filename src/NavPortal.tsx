@@ -18,8 +18,8 @@ export default function NavPortal() {
 
             Socials
             <ol>
-                <li><a href='https://twitter.com/SeriouslyNIX'>Twitter</a></li>
-                <li><a href='https://github.com/donohued'>Github</a></li>
+                <li><a className="external" target="_blank" href='https://twitter.com/SeriouslyNIX'>Twitter</a></li>
+                <li><a className="external" target="_blank" href='https://github.com/donohued'>Github</a></li>
             </ol>
         </>
     )
