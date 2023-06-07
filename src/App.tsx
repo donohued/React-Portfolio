@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MiamiRoll from './MiamiRoll';
 import DrawingBoard from './DrawingBoard';
 import NavPortal from './NavPortal';
+import ADC from './ADC';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
                         <Routes>
                             <Route path="/*" element={<Project />} />
                             <Route path="/queueup" element={<Project />} />
+                            <Route path="/adc" element={<ADC />} />
                             <Route path="/vrcamping" element={<VRCamping />} />
                             <Route path="/miamiroll" element={<MiamiRoll />} />
                             <Route path="/thedrawingboard" element={<DrawingBoard />} />

@@ -6,7 +6,7 @@ export default function Project() {
             <h2>QueueUp</h2>
             <hr />
             <span className='details'>
-                Web App / 2023 | React + Flask 
+                Web App / 2023 | ReactJS, Flask, SQL
             </span>
             <br />
             <br />
