@@ -4,13 +4,17 @@ export default function MiamiRoll() {
     return (
         <div className='content-content'>
             <h2>Miami Roll</h2>
+            <div className="made-with-box">
+                made with:
+                <img className="made-with-logo" src="/images/logos/unity2.png"></img>
+            </div>
             <hr />
-            <span className='details'>
-                Video Game / 2022 | Unity
-            </span>
-            <br />
-            <br />
+            <div className='details'>
+                Video Game / 2022
+                <hr className="dt2" />
+            </div>
             
+            <h3>Summary</h3>
             A game made for the 2022 GMTK Game Jam. 
             The game was originally designed and developed in less than 48 hours using Unity Game Engine.
             I developed multiple systems for the game, including a dialogue system, battle system, and inventory system. 

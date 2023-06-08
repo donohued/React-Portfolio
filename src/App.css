@@ -38,8 +38,7 @@ ol{
     font-size: .8em;
 }
 .made-with-logo{
-    aspect-ratio: 1/1;
-    width: 40px;
+    height: 40px;
     padding-left: 10px;
 }
 

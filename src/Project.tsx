@@ -4,12 +4,18 @@ export default function Project() {
     return (
         <div className='content-content'>
             <h2>QueueUp</h2>
+            <div className="made-with-box">
+                made with:
+                <img className="made-with-logo" src="/images/logos/react.png"></img>
+            </div>
             <hr />
-            <span className='details'>
-                Web App / 2023 | ReactJS, Flask, SQL
-            </span>
-            <br />
-            <br />
+
+            <div className='details'>
+                Web App / 2023
+                <hr className="dt2" />
+            </div>
+
+            <h3>Summary</h3>
             For my Senior Capstone, I and two others worked together to develop a ready for production web service known as QueueUp.
             QueueUp allows players of the game League of Legends to find team-mates that can fill the gap in their strategies.
             We do this by using the Riot API to cache their previous match data to determine their skill and play style.
