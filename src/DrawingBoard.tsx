@@ -13,7 +13,7 @@ export default function DrawingBoard() {
 
             <hr />
             <div className='details'>
-                Video Game / 2020 | Unity
+                Video Game / 2020
                 <hr className="dt2" />
             </div>
             
