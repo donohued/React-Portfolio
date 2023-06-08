@@ -3,7 +3,7 @@
 export default function Project() {
     return (
         <div className='content-content'>
-            <h2>QueueUp</h2>
+            <h2>QueueUp Hi mom! :)</h2>
             <div className="made-with-box">
                 made with:
                 <img className="made-with-logo" src="/images/logos/react.png"></img>
