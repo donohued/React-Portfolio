@@ -31,13 +31,23 @@ ol{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.made-with-box{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.3rem;
+    font-size: .8em;
+}
+.made-with-logo{
+    aspect-ratio: 1/1;
+    width: 40px;
+    padding-left: 10px;
+}
 
 .details{
-    font-size: .8em;
+    width: 50%;
     font-family: PlexSerifThin;
     padding-bottom: .65rem;
     padding-right: .65rem;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.87);
 }
 
 .flex-wrapper{
