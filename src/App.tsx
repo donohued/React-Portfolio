@@ -13,8 +13,12 @@ function App() {
 
     return (
         <>
-        <Router>
-            <div className='flex-wrapper'>
+            <Router>
+                <div className='portal-top'>
+                    V
+                </div>
+                <hr />
+                <div className='flex-wrapper'>
                     <div className='portal-side'>
 
                         <div className='portal-content'>
@@ -32,6 +36,9 @@ function App() {
                         </div>
 
                     </div>
+
+
+
                     <div className='content-side'>
 
                         <Routes>
@@ -46,8 +53,8 @@ function App() {
                     </div>
 
                 </div >
-        </Router>
-                
+            </Router>
+
         </>
     )
 }

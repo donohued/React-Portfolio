@@ -31,14 +31,20 @@ ol{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.content-header{
+    display: flex;
+}
+.header-text{
+    flex: 1;
+}
 .made-with-box{
-    position: absolute;
-    top: 1.2rem;
-    right: 1.3rem;
+    flex: 1;
+    text-align: right;
     font-size: .8em;
 }
 .made-with-logo{
-    height: 40px;
+    height: 34px;
     padding-left: 10px;
 }
 
@@ -61,6 +67,9 @@ ol{
     max-width: 500px;
     flex : 2;
 }
+.portal-top{
+    display: none;
+}
 
 .fixed-sidebar{
     position: fixed;
@@ -70,6 +79,7 @@ ol{
     height: 100%;
     padding: 1.2rem;
     border-right: 2px solid rgba(255, 255, 255, 0.87);
+    background-color: #200719;
 }
 
 .content-content{
@@ -114,3 +124,31 @@ display: inline-block;
 .external::after {
     content: " ↗";
 }
+
+@media only screen and (max-width: 1000px) {
+    .portal-side{
+        display: none;
+    }
+
+    .portal-top{
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: clamp(30px, 10vw, 60px);
+        background-color: #200719;
+    }
+
+    .flex-wrapper{
+        min-width: 0px;
+    }
+    .made-with-box{
+        display: none;
+    }
+    .content-content{
+        min-width: 300px;
+        padding: 1.2rem 1.3rem;
+    }
+
+
+
+  }
