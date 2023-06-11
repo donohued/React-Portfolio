@@ -15,7 +15,7 @@ export default function ProjectHeader({title, substring, tools} : ProjectHeaderP
                     made with:
                     {
                         tools !== undefined &&
-                            tools.map((key, index) =>{
+                            tools.map((key) =>{
                                 return(
                                     <>
                                     <img className="made-with-logo" src={"/images/logos/"+key+".png"}></img>
