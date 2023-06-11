@@ -14,10 +14,19 @@ function App() {
     return (
         <>
             <Router>
+
                 <div className='portal-top'>
-                    V
+                    <div className='top-content'>
+                        <div className='dropdown-button'>
+                            V
+                        </div>
+                        <div className='top-nav'>
+                                <NavPortal />
+                        </div>
+                    </div>
+                    
                 </div>
-                <hr />
+
                 <div className='flex-wrapper'>
                     <div className='portal-side'>
 
