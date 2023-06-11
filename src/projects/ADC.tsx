@@ -10,8 +10,8 @@ export default function ADC() {
             substring="Web App / 2022"
             tools={
                 [
-                    "spring",
-                    "sql",
+                    "springboot",
+                    "mysql",
                 ]
             }
             />
