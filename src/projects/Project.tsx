@@ -11,7 +11,7 @@ export default function Project() {
                 [
                     "react",
                     "flask",
-                    "sql",
+                    "mysql",
                 ]
             }
             />
