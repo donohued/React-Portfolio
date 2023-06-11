@@ -1,5 +1,4 @@
 import ProjectHeader from '../ProjectHeader';
-import { UsedWith } from '../types';
 
 export default function Project() {
     return (

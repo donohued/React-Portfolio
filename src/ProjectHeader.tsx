@@ -1,5 +1,3 @@
-
-
 type ProjectHeaderProps = {
     title: string;
     substring: string;

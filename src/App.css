@@ -151,8 +151,6 @@ display: inline-block;
     .flex-wrapper{
         min-width: 0px;
     }
-    .made-with-box{
-    }
     .content-content{
         min-width: 300px;
         padding: 1.0rem 1.1rem;
