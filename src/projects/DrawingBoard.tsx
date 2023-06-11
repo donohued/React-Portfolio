@@ -1,19 +1,19 @@
+import ProjectHeader from "../ProjectHeader";
 
 
 export default function DrawingBoard() {
     return (
         <div className='content-content'>
-            <h2>The Drawing Board</h2> 
-            <div className="made-with-box">
-                made with:
-                <img className="made-with-logo" src="/images/logos/unity2.png"></img>
-            </div>
-            <hr />
-
-            <div className='details'>
-                Video Game / 2020
-                <hr className="dt2" />
-            </div>
+            
+            <ProjectHeader 
+            title="The Drawing Board"
+            substring="Video Game / 2020"
+            tools={
+                [
+                    "unity",
+                ]
+            }
+            />
             
             <h3>Summary</h3>
             My first ever game jam. :)

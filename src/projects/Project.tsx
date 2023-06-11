@@ -1,25 +1,21 @@
-
+import ProjectHeader from '../ProjectHeader';
+import { UsedWith } from '../types';
 
 export default function Project() {
     return (
         <div className='content-content'>
-            <div className="content-header">
-                <div className="header-text">
-                    <h2>QueueUp</h2>
-                    
-                </div>
-                <div className="made-with-box">
-                        made with:
-                        <img className="made-with-logo" src="/images/logos/react.png"></img>
-                    </div>
-            </div>
 
-            <hr />
-
-            <div className='details'>
-                Web App / 2023
-                <hr className="dt2" />
-            </div>
+            <ProjectHeader 
+            title="QueueUp"
+            substring="Web App / 2023"
+            tools={
+                [
+                    "react",
+                    "flask",
+                    "sql",
+                ]
+            }
+            />
 
             <h3>Summary</h3>
             For my Senior Capstone, I and two others worked together to develop a ready for production web service known as QueueUp.

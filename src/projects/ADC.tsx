@@ -1,18 +1,20 @@
+import ProjectHeader from "../ProjectHeader";
 
 
 export default function ADC() {
     return (
         <div className='content-content'>
-            <h2>Assisted Draft Client</h2>
-            <div className="made-with-box">
-                made with:
-                <img className="made-with-logo" src="/images/logos/springboot.png"></img>
-            </div>
-            <hr />
-            <div className='details'>
-                Web App / 2022
-                <hr className="dt2" />
-            </div>
+            
+            <ProjectHeader 
+            title="Assisted Draft Client"
+            substring="Web App / 2022"
+            tools={
+                [
+                    "spring",
+                    "sql",
+                ]
+            }
+            />
             
             <h3>Summary</h3>
             Assisted Draft Client is a web service created for my Software Engineering class in 2022.

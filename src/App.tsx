@@ -1,12 +1,11 @@
-
 import './App.css'
-import Project from './Project'
-import VRCamping from './VRCamping'
+import Project from './projects/Project'
+import VRCamping from './projects/VRCamping'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MiamiRoll from './MiamiRoll';
-import DrawingBoard from './DrawingBoard';
+import MiamiRoll from './projects/MiamiRoll';
+import DrawingBoard from './projects/DrawingBoard';
 import NavPortal from './NavPortal';
-import ADC from './ADC';
+import ADC from './projects/ADC';
 
 
 function App() {

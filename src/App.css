@@ -131,7 +131,6 @@ display: inline-block;
     }
     .portal-top{
         display: block;
-        padding-bottom: 1rem;
         border-bottom: 2px solid white;
     }
     .dropdown-button{
@@ -153,7 +152,6 @@ display: inline-block;
         min-width: 0px;
     }
     .made-with-box{
-        display: none;
     }
     .content-content{
         min-width: 300px;
@@ -161,6 +159,9 @@ display: inline-block;
     }
     .top-nav{
         height: 100%;
+        padding-bottom: .8rem;
+        padding-left: 1rem;
+        text-align: left;
     }
 
     
