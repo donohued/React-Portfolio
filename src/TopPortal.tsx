@@ -5,6 +5,7 @@ import AnimateHeight from 'react-animate-height';
 export default function TopPortal() {
 
     const [view, setView] = useState(false)
+    
 
     return (
         <div className='portal-top'>
@@ -18,9 +19,10 @@ export default function TopPortal() {
 
                     <AnimateHeight
                         duration={500}
+                        delay={100}
                         height={view ? 'auto' : 0}
                     >
-                        <NavPortal />
+                        <NavPortal extra={setView}/>
                     </AnimateHeight>
 
                 </div>
