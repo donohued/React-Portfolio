@@ -39,7 +39,7 @@ ol{
     flex: 1;
 }
 .made-with-box{
-    flex: 1;
+    flex: 3;
     text-align: right;
     font-size: .8em;
 }
