@@ -134,7 +134,7 @@ display: inline-block;
         border-bottom: 2px solid white;
     }
     .dropdown-button-container{
-        height: clamp(30px, 7vw, 60px);
+        height: clamp(30px, 10vw, 60px);
         aspect-ratio: 1/1;
         padding-left: 1rem;
     }
