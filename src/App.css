@@ -133,19 +133,19 @@ display: inline-block;
         display: block;
         border-bottom: 2px solid white;
     }
-    .dropdown-button{
-        height: clamp(30px, 10vw, 60px);
-        font-size: 2em;
+    .dropdown-button-container{
+        height: clamp(30px, 7vw, 60px);
+        aspect-ratio: 1/1;
+        padding-left: 1rem;
+    }
+    .dropdown-button:hover{
+        cursor: pointer;
     }
     .top-content{
         width: 100%;
         text-align: center;
         overflow: hidden;
         background-color: #200719;
-        height: clamp(30px, 10vw, 60px);
-    }
-    .top-content:hover{
-        height: auto;
     }
 
     .flex-wrapper{
@@ -157,7 +157,6 @@ display: inline-block;
     }
     .top-nav{
         height: 100%;
-        padding-bottom: .8rem;
         padding-left: 1rem;
         text-align: left;
     }

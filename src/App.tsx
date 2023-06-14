@@ -4,8 +4,9 @@ import VRCamping from './projects/VRCamping'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MiamiRoll from './projects/MiamiRoll';
 import DrawingBoard from './projects/DrawingBoard';
-import NavPortal from './NavPortal';
 import ADC from './projects/ADC';
+import SidePortal from './SidePortal';
+import TopPortal from './TopPortal';
 
 
 function App() {
@@ -14,38 +15,11 @@ function App() {
         <>
             <Router>
 
-                <div className='portal-top'>
-                    <div className='top-content'>
-                        <div className='dropdown-button'>
-                            V
-                        </div>
-                        <div className='top-nav'>
-                                <NavPortal />
-                        </div>
-                    </div>
-                    
-                </div>
+                <TopPortal />
 
                 <div className='flex-wrapper'>
-                    <div className='portal-side'>
 
-                        <div className='portal-content'>
-
-                            <div className='fixed-sidebar'>
-                                <h2>David Donohue</h2>
-                                <hr />
-
-                                Software developer.
-                                <hr />
-
-                                <NavPortal />
-
-                            </div>
-                        </div>
-
-                    </div>
-
-
+                    <SidePortal />
 
                     <div className='content-side'>
 
