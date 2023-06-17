@@ -4,7 +4,7 @@ import ProjectHeader from "../ProjectHeader";
 export default function VRCamping() {
     return (
         <div className='content-content'>
-            
+
             <ProjectHeader 
             title="VR Camping"
             substring="Video Game / 2016"
@@ -24,7 +24,11 @@ export default function VRCamping() {
             <br />
 
             <div className='image-row'>
-                <div className='image-div pad-20px w1'><img src="./images/queueup.PNG" /></div>
+                <div className='image-div pad-20px w1'><img src="./images/vrc6.png" /></div>
+                <div className='image-div pad-20px w1'><img src="./images/vrc1.png" /></div>
+                <div className='image-div pad-20px w1'><img src="./images/vrc3.png" /></div>
+                <div className='image-div pad-20px w1'><img src="./images/vrc4.png" /></div>
+                <div className='image-div pad-20px w1'><img src="./images/vrc5.png" /></div>
             </div>
 
 
