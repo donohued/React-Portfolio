@@ -17,8 +17,8 @@ export default function ADC() {
             />
             
             <h3>Summary</h3>
-            Assisted Draft Client is a web service created for my Software Engineering class in 2022.
-
+            Assisted Draft Client is a web service created for my Software Engineering class in 2022. 
+            It was designed to allow users to create lobbies and simulate a pick/ban draft for the game Valorant.
             <br />
             <br />
 

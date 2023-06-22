@@ -26,7 +26,7 @@ export default function Project() {
             <br />
 
             I worked primarily on the front end development of the web app, creating reusable components and using react hooks to make the user experience feels smooth and responsive.
-            I also worked with the primary backend developer to organize the data structures for communication between the web app and the backend API.
+            I also worked with the main backend developer to organize the data structures for communication between the web app and the backend API.
 
             <br />
             <br />
