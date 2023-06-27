@@ -10,7 +10,6 @@ export default function Project() {
             tools={
                 [
                     "react",
-                    "flask",
                     "mysql",
                 ]
             }
