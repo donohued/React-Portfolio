@@ -7,6 +7,8 @@ import DrawingBoard from './projects/DrawingBoard';
 import ADC from './projects/ADC';
 import SidePortal from './SidePortal';
 import TopPortal from './TopPortal';
+import Resume from './about/Resume';
+import CV from './about/CV';
 
 
 function App() {
@@ -30,6 +32,9 @@ function App() {
                             <Route path="/vrcamping" element={<VRCamping />} />
                             <Route path="/miamiroll" element={<MiamiRoll />} />
                             <Route path="/thedrawingboard" element={<DrawingBoard />} />
+
+                            <Route path="/resume" element={<Resume />} />
+                            <Route path="/cv" element={<CV />} />
                         </Routes>
 
                     </div>

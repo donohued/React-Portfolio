@@ -18,7 +18,7 @@ export default function ProjectHeader({title, substring, tools} : ProjectHeaderP
                             tools.map((key) =>{
                                 return(
                                     <>
-                                    <img className="made-with-logo" src={"/images/logos/"+key+".png"}></img>
+                                        <img className="made-with-logo" src={"/images/logos/"+key+".png"}></img>
                                     </>
                                 )
                             })
