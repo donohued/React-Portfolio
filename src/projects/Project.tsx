@@ -28,6 +28,9 @@ export default function Project() {
             I also worked with the main backend developer to organize the data structures for communication between the web app and the backend API.
 
             <br />
+
+            Visit it here: <a href='https://queueup.app'>https://queueup.app</a>
+
             <br />
 
             <div className='image-row'>

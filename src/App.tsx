@@ -1,5 +1,4 @@
 import './App.css'
-import Project from './projects/Project'
 import VRCamping from './projects/VRCamping'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MiamiRoll from './projects/MiamiRoll';
@@ -9,6 +8,7 @@ import SidePortal from './SidePortal';
 import TopPortal from './TopPortal';
 import Resume from './about/Resume';
 import CV from './about/CV';
+import QueueUp from './projects/QueueUp';
 
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
                     <div className='content-side'>
 
                         <Routes>
-                            <Route path="/*" element={<Project />} />
-                            <Route path="/queueup" element={<Project />} />
+                            <Route path="/*" element={<QueueUp />} />
+                            <Route path="/queueup" element={<QueueUp />} />
                             <Route path="/adc" element={<ADC />} />
                             <Route path="/vrcamping" element={<VRCamping />} />
                             <Route path="/miamiroll" element={<MiamiRoll />} />

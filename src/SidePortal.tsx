@@ -10,7 +10,7 @@ export default function SidePortal() {
                                 <h2>David Donohue</h2>
                                 <hr />
 
-                                Software developer.
+                                Software developer with far too many interests.
                                 <hr />
 
                                 <NavPortal />
