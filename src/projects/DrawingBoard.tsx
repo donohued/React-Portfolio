@@ -16,7 +16,7 @@ export default function DrawingBoard() {
             />
             
             <h3>Summary</h3>
-            My first ever game jam. :)
+            This was a game that I made in less than 48 hours for the Mix and Game Jam 2020.
 
             <br />
             <br />

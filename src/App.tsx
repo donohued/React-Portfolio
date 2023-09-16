@@ -7,8 +7,8 @@ import ADC from './projects/ADC';
 import SidePortal from './SidePortal';
 import TopPortal from './TopPortal';
 import Resume from './about/Resume';
-import CV from './about/CV';
 import QueueUp from './projects/QueueUp';
+import CV from './about/CV';
 
 
 function App() {
