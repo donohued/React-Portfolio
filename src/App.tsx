@@ -29,6 +29,7 @@ function App() {
                             <Route path="/*" element={<QueueUp />} />
                             <Route path="/queueup" element={<QueueUp />} />
                             <Route path="/adc" element={<ADC />} />
+                            
                             <Route path="/vrcamping" element={<VRCamping />} />
                             <Route path="/miamiroll" element={<MiamiRoll />} />
                             <Route path="/thedrawingboard" element={<DrawingBoard />} />

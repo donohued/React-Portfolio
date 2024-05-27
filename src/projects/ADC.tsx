@@ -19,7 +19,7 @@ export default function ADC() {
             <h3>Summary</h3>
             Assisted Draft Client is a web service created for my Software Engineering class in 2022. 
             It was designed to allow users to create lobbies and simulate a pick/ban draft for the game Valorant.
-            The purpose of this project was to work in a group with other classmates in an AGILE manner and create a finished product.
+            The purpose of this project was to work in a group with other classmates using agile development methods and create a finished product.
             ADC was created using Springboot to serve the API and ThymeLeaf to serve the html.
             MySQL was used to host the database and javascript was used to visualize and animate the UI.
             <br />
